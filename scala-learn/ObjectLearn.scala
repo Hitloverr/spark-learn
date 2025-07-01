@@ -107,7 +107,7 @@ trait CarId {
 
 }
 trait CarGreeting {
-  def greeting(msg:String) {println("Hello, " + msg)}
+//  def greeting(msg:String) {println("Hello, " + msg)}
 }
 class BYDCarId extends CarId with CarGreeting {
 
